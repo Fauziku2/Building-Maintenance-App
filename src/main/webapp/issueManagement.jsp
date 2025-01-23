@@ -70,7 +70,7 @@
 							<a class="btn btn-danger btn-sm" href="delete?title=<c:out value='${issue.title}'/>" role="button">Delete</a>
 							<a class="btn btn-secondary btn-sm" href="priority?title=<c:out value='${issue.title}'/>" role="button">Priority</a>
 							<a class="btn btn-info btn-sm" href="assign?title=<c:out value='${issue.title}'/>" role="button">Assign</a>
-							<a class="btn btn-dark btn-sm" href="status?title=<c:out value='${issue.title}'/>" role="button">Status</a>
+							<a class="btn btn-primary btn-sm" href="status?title=<c:out value='${issue.title}'/>" role="button">Status</a>
 						</div>
 					</div>
 				</div>
