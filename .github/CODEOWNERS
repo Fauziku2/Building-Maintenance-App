@@ -1,4 +1,4 @@
 # README, .gitignore and .github file belongs to fauzi
 *.md @Fauziku2
 *.gitignore @Fauziku2
-*/.github/ @Fauziku2
+/.github/CODEOWNERS @Fauziku2
