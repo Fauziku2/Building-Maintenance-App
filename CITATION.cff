@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- given-names: "Fauzi"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Building Maintenance App"
+version: 1.0.0
+url: "https://github.com/Fauziku2/Building-Maintenance-App"
