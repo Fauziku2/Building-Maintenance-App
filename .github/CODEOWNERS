@@ -1,0 +1,4 @@
+# README, .gitignore and CODEOWNERS file belongs to fauzi
+*.md @Fauziku2
+*.gitignore @Fauziku2
+*/.github/CODEOWNERS
