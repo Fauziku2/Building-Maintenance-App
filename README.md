@@ -50,6 +50,4 @@ The project follows the Scrum methodology:
 - Add notifications for task updates.
 - Implement analytics for maintenance trends.
 - Enhance user interface for better accessibility.
-  
----
 
