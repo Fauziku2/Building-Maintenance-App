@@ -21,9 +21,9 @@ import javax.servlet.RequestDispatcher;
 public class IssueServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	private final String jdbcURL = "jdbc:mysql://localhost:3306/IssueDetails";
-	private final String jdbcUsername = "root";
-	private final String jdbcPassword = "password";
+	private static final String jdbcURL = "jdbc:mysql://localhost:3306/IssueDetails";
+	private static final String jdbcUsername = "root";
+	private static final String jdbcPassword = "password";
 
 	private static final String INSERT_ISSUE_SQL = "INSERT INTO IssueDetails (title, description, location, name, email, phone, priority, assign, status, comment) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
 	private static final String SELECT_ISSUE_BY_ID = "select title,description,location,name,email,phone,priority,assign,status,comment from IssueDetails where title =?";
