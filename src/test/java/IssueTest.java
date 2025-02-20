@@ -141,7 +141,7 @@ class IssueTest {
 
 	@Test
 	void testSetComment() {
-		String newComment = "Tap is fixed";
+		String newComment = "Please come quickly";
 		issue.setComment(newComment);
 		assertEquals(issue.getComment(), newComment);
 	}
