@@ -60,29 +60,5 @@ pipeline {
 				deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://localhost:8090')], contextPath: "BuildingMaintenanceApp", war: '**/*.war'
 			}
 		}
-		/*
-		stage('Deploy to Tomcat') {
-			steps {
-				script {
-					// Find the WAR file
-            		//def warFile = findFiles(glob: 'target/*.war')[0]
-            		def warFile = 'target\\inventory-project.war'
-            		//echo "Deploying WAR file: ${warFile.path}"
- 
-					// Tomcat Manager URL and credentials
-					def tomcatUrl = 'http://localhost:8090/manager/text'
-					def tomcatUser = 'tomcat'
-					def tomcatPassword = 'password'
- 
-					// Deploy the WAR file using curl
-					bat """
-					curl -v -u ${tomcatUser}:${tomcatPassword} \
-					-T ${warFile} \
-					${tomcatUrl}/deploy?path=/InventoryProject
-					"""
-				}
-			}
-		}
-		*/
 	}
 }
