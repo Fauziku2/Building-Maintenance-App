@@ -24,7 +24,7 @@ pipeline {
 				sh "mvn install -DskipTests"
 			}
 		}
-		stage("sonar") {
+		stage("sonar long") {
             steps {
                 script {
                     // Prepare SonarQube environment
